@@ -14,6 +14,7 @@ class FlutterBlue {
 
   /// Singleton boilerplate
   FlutterBlue._() {
+    print("welcome cander`s blue");
     _channel.setMethodCallHandler((MethodCall call) {
       _methodStreamController.add(call);
     });
