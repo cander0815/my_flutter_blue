@@ -369,7 +369,7 @@ public class FlutterBluePlugin implements MethodCallHandler, RequestPermissionsR
                 }
                 /************CANDER*********/
                 log(LogLevel.DEBUG, "requsetValues......, start");
-                log(LogLevel.DEBUG, request.getValue().toByteArray());
+                log(LogLevel.DEBUG, request.getValue());
                 log(LogLevel.DEBUG, "requsetValues......, end");
                 /************CANDER*********/
                 // Set characteristic to new value
