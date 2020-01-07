@@ -361,7 +361,7 @@ public class FlutterBluePlugin implements MethodCallHandler, RequestPermissionsR
                 log(LogLevel.DEBUG, "requsetValues......, start");
                 byte[] candata = request.getValue().toByteArray();
                 log(LogLevel.DEBUG, "Read Data Length : " + candata.length);
-                String fileString = new String(candata, "UTF-16BE");
+                String fileString = new String(candata);
                 log(LogLevel.DEBUG, "Read String  : " + fileString);
                 log(LogLevel.DEBUG, "requsetValues......, end");
                 /************CANDER*********/

@@ -158,12 +158,14 @@ class DeviceScreen extends StatelessWidget {
 
   List<int> _getRandomBytes() {
     final math = Random();
-    return [
+    List<int> a =  [
       math.nextInt(255),
       math.nextInt(255),
       math.nextInt(255),
       math.nextInt(255)
     ];
+    print(a);
+    return a;
   }
 
   List<Widget> _buildServiceTiles(List<BluetoothService> services) {
